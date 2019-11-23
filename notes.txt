@@ -1,0 +1,9 @@
+int socket(int domain, int type, int protocol);
+
+domain:
+  - use AF_INET (IPv4 (look up man ip)) or AF_INET6 (IPv6 (look up man ipv6))
+  - look up man page unix
+
+protocols:
+  - SOCK_STREAM or SOCK_DGRAM
+  - look up man protocol
